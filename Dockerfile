@@ -15,7 +15,7 @@ RUN (apt-get update && \
                         zlib1g-dev libssl-dev libreadline-dev libyaml-dev \
                         libxml2-dev libxslt-dev sqlite3 libsqlite3-dev \
                         vim git byobu wget curl unzip tree exuberant-ctags \
-                        build-essential cmake python python-dev)
+                        build-essential cmake python python-dev gdb)
 
 # Add a non-root user
 RUN (useradd -m -d /home/docker -s /bin/bash docker && \
